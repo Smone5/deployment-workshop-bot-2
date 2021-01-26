@@ -1,0 +1,10 @@
+version: "2.0"
+stories:
+- story: rivers access
+  steps:
+  - intent: rivers_intent
+  - action: action_hi
+- story: Story from Conversation ID 1b82608900dd42b587a57a2ccec852d8
+  steps:
+  - intent: rivers_verify
+  - action: action_hi
