@@ -9,7 +9,12 @@ intents:
     use_entities: true
 entities:
 - extract_email
-slots: {}
+slots:
+  email:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
 responses: {}
 actions:
 - action_hi
