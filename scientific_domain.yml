@@ -10,8 +10,8 @@ intents:
 entities:
 - extract_email
 slots:
-  email:
-    type: rasa.shared.core.slots.UnfeaturizedSlot
+  extract_email:
+    type: rasa.shared.core.slots.AnySlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
