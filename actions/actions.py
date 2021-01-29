@@ -21,5 +21,6 @@ class ActionHi(Action):
 
         dispatcher.utter_message(text="Hi, from custom action 'action_hi' !")
         dispatcher.utter_message(text="How are you?")
+        dispatcher.utter_message(text="Message has been sent to barista")
 
         return []
