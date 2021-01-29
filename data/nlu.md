@@ -57,6 +57,7 @@
 - am I talking to a human?
 
 ## intent:rivers_verify
+- I got locked out of rivers
 - I need Rivers Access
 - I need access to rivers
 - I need access to Rivers
