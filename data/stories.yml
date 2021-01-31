@@ -1,6 +1,10 @@
 version: "2.0"
 stories:
-- story: rivers access
+- story: rivers_access
+  steps:
+  - intent: rivers_verify
+  - action: utter_riversaccess
+- story: rivers_access
   steps:
   - intent: rivers_verify
   - action: utter_riversaccess
