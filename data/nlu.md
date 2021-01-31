@@ -66,7 +66,7 @@
 - I need access to rivers[ ](extract_email)[ ](extract_email)[ ](extract_email)[*****ac.melton01@gmail.com](extract_email)
 - yes, I need access to rivers [*****ac.melton01@gmail.com](extract_email)
 - I need access to rivers right now [*****ac.melton01@gmail.com](extract_email)
-- I need access to rivers [*****ac.melton01@gmail.com](extract_email)
+- I need access to rivers *****ac.melton01@gmail.com
 
 ## regex:extract_email
 - (?:\*\*\*\*\*)([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)

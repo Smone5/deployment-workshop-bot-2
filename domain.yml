@@ -21,8 +21,14 @@ intents:
     use_entities: true
 - rivers_verify:
     use_entities: true
-entities: []
-slots: {}
+entities:
+- extract_email
+slots:
+  extract_email:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
 responses:
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
