@@ -23,8 +23,14 @@ intents:
     use_entities: true
 entities:
 - extract_email
+- extract_id
 slots:
   extract_email:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  extract_id:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
