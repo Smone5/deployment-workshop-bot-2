@@ -66,7 +66,12 @@
 - I need access to rivers[ ](extract_email)[ ](extract_email)[ ](extract_email)[*****ac.melton01@gmail.com](extract_email)
 - yes, I need access to rivers [*****ac.melton01@gmail.com](extract_email)
 - I need access to rivers right now [*****ac.melton01@gmail.com](extract_email)
-- I need access to rivers *****ac.melton01@gmail.com
+- I need access to rivers [*****ac.melton01@gmail.com](extract_email)
+- I need access to rivers [*****ac_melton@hotmail.com](extract_email)
+- I need access to rivers [9485235435214aN: AAMkADA1YTE1NzBjLWNjM2ItNDFjYy1iMzNhLWMxYzI3ZmNkNzUyYgBGAAAAAAD2KnCrb4HEQr2A6YrZyBFiBwAHGsWk4qReSpDk7en2ifvUAAAAAAEMAAAHGsWk4qReSpDk7en2ifvUAAAAB6nKAAA=](extract_id)
 
 ## regex:extract_email
-- (?:\*\*\*\*\*)([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)
+- (?<=lkjdsfah5838fl3: )([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)
+
+## regex:extract_id
+- (?<=9485235435214aN: )(.*)
